@@ -2,28 +2,12 @@
 <html>
 <head>
 	<title>MyWall</title>
-        <script>
-            window.onload = function() {
-                var labels = document.getElementsByTagName('label');
-                for (var i = 0; i < labels.length; i++) {
-                    disableSelection(labels[i]);
-                }
-            };
-            function disableSelection(element) {
-                if (typeof element.onselectstart != 'undefined') {
-                    element.onselectstart = function() { return false; };
-                } else if (typeof element.style.MozUserSelect != 'undefined') {
-                    element.style.MozUserSelect = 'none';
-                } else {
-                    element.onmousedown = function() { return false; };
-                }
-            }
-        </script>
 	<meta charset="utf-8" name="viewport" content="width=device-widt, initial-scale=1">
 	<link rel="stylesheet" type="text/css" href="style.css">
 </head>
 <body oncontextmenu=’return false;’ onmousedown=’return false;’ onselectstart=’return false;’>
-	<div class="wrapper">
+	<span>
+		<div class="wrapper">
 		<div class="box"><img src="wall/karla/Androide17.png"></div>
 		<div class="box"><img src="wall/karla/Androide18.png"></div>
 		<div class="box"><img src="wall/karla/Animalabuse.png"></div>
@@ -124,5 +108,6 @@
 		<div class="box"><img src="wall/karla/Vegetaproudprince.png"></div>
 		<div class="box"><img src="wall/karla/Vicecity.png"></div>
 	</div>
+</span>
 </body>
 </html>
