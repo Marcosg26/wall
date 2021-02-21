@@ -33,3 +33,9 @@ img{
 		background: #141414;
 	}
 }
+span.no_selection {
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -khtml-user-select: none;
+    -ms-user-select:none;
+}
