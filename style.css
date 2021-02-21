@@ -7,7 +7,7 @@ body{
 	grid-gap: 5px;
 }
 img{
-  width: 100px; height: 200px;
+  width: 300px; height: 600px;
 	border-radius: 20px;
 	box-shadow: 2px 2px 10px #666;
 }
