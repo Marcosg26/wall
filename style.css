@@ -11,3 +11,25 @@ img{
 	border-radius: 10px;
 	box-shadow: 2px 2px 10px #666;
 }
+@media (prefers-color-scheme: light) {
+	.site-title a:link, .site-title a:visited, .header-social-icons .social-icons-menu li a {
+		color: #373737;
+	}
+	.site-content, body{
+		background: #f9f9f9;
+	}
+	.site-header {
+		background: #fff;
+	}
+}
+@media (prefers-color-scheme: dark) {
+	.site-title a:link, .site-title a:visited, .header-social-icons .social-icons-menu li a {
+		color: #fff;
+	}
+	.site-content, body{
+		background: #141414;
+	}
+	.site-header {
+		background: #141414;
+	}
+}
