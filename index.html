@@ -29,5 +29,13 @@
 		<div class="box"><img src="wall/karla/Ilustracion8.png"></div>
 		<div class="box"><img src="wall/karla/Ilustracion9.png"></div>
 	</div>
+    <script src="/dist/pulltorefresh.js"></script>
+    <script>
+      /* global PullToRefresh */
+      PullToRefresh.init({
+        mainElement: '#main',
+        onRefresh: function() { alert('refresh') }
+      });
+    </script>
 </body>
 </html>
