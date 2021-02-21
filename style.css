@@ -14,3 +14,9 @@ img{
 .box{
 	padding: 10px;
 }
+.header{
+	position: fixed;
+	top: 0;
+	width: 100%;
+	
+}
